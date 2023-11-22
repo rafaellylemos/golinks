@@ -1,0 +1,9 @@
+.square {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 23rem;
+  height: auto; 
+  margin: 0 auto;
+  border-radius: 5px;
+}

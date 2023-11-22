@@ -1,0 +1,25 @@
+p {
+  color: white;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8rem;
+  margin-right: 1rem;
+  margin-left: 19rem;
+  margin-botton: 0rem;
+  justify-content: flex-end;
+}
+
+#dropdown-menu {
+  display: flex;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: -5.5rem;
+  font-size: 0.8rem;
+  
+}
+
+#dropdown-menu:hover {
+  color: white;
+}
+

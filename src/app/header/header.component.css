@@ -1,0 +1,46 @@
+* {
+  color: white;
+  font-family: arial;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+img {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+p {
+  margin: 0;
+  font-size: 0.8rem;
+  cursor: default;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Substitui o conteúdo do parágrafo normal pelo parágrafo adicional no hover */
+div:hover .visible {
+  display: none;
+}
+
+div:hover .hidden {
+  display: block;
+}
+
+#imagem {
+  border: 3px solid white;
+}
+
+#imagem:hover {
+  border: 3px solid black;
+}
